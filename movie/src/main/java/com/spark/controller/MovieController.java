@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class MovieController {
     @ResponseBody
-    @RequestMapping("/haha")
+    @RequestMapping("/hello")
     public String hello(){
         return "haha";
     }

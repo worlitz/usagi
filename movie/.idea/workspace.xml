@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a13233-45d2-4dab-a7f2-8197f0bf3448" name="Default Changelist" comment="" />
+    <list default="true" id="a2a13233-45d2-4dab-a7f2-8197f0bf3448" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/controller/MovieTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/dao/MoviesTypeDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/service/IMoviesTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/service/impl/MoviesTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/movie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/MovieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spark/MovieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spark/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/MovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/MovieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/controller/MovieController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +28,21 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.6.0" />
+        <option name="mavenHome" value="F:/JAVA/maven/apache-maven-3.6.0" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -27,18 +55,22 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dzlTIZukyQA0ij6lmWo1rwXzJ5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/spark" />
+    <property name="last_opened_file_path" value="F:/JAVA/project/Exam" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15494011" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -129,10 +161,25 @@
       <updated>1593435808625</updated>
       <workItem from="1593435811947" duration="8689000" />
       <workItem from="1593445218450" duration="1924000" />
+      <workItem from="1593491005064" duration="9412000" />
+      <workItem from="1593521623435" duration="10028000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
