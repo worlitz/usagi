@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a13233-45d2-4dab-a7f2-8197f0bf3448" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/controller/MovieTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/dao/MoviesTypeDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/service/IMoviesTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/service/impl/MoviesTypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/movie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/MovieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spark/MovieApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spark/controller/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/MovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/MovieApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/controller/MovieTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spark/controller/MovieTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/dao/MoviesTypeDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spark/dao/MoviesTypeDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/entity/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/service/IMoviesTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spark/service/IMoviesTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/service/impl/MoviesTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spark/service/impl/MoviesTypeServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +152,9 @@
       <workItem from="1593435811947" duration="8689000" />
       <workItem from="1593445218450" duration="1924000" />
       <workItem from="1593491005064" duration="9412000" />
-      <workItem from="1593521623435" duration="10028000" />
+      <workItem from="1593521623435" duration="10199000" />
+      <workItem from="1593561621491" duration="3029000" />
+      <workItem from="1593653201702" duration="29208000" />
     </task>
     <servers />
   </component>

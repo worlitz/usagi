@@ -13,10 +13,22 @@ import org.springframework.stereotype.Service;
 public interface IMoviesTypeService {
 
     /**
-     * 根据movieId查询到genre，再根据movieId查询到的tags。
-     * 再通过模糊查询查询到有genre相同的
-     * @param movieId
-     * @return jsonObject
+     * 查询每个类别的平均分
+     * @return 一个json对象
      */
-    JsonObject show_average(String movieId);
+    JsonObject showAverageScore();
+
+    /**
+     *  通过年龄段查询每个类别的平均分
+     * @return 一个json对象
+     */
+    JsonObject showAverageScoreForAge();
+
+    /**
+     *  通过性别查询每个类别的平均分
+     * @return 一个json对象
+     */
+    JsonObject showAverageScoreForGender();
+
+
 }
