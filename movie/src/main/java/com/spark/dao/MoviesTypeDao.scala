@@ -26,6 +26,7 @@ class MoviesTypeDao extends CommandLineRunner{
       .appName("Spark SQL basic example")
       .getOrCreate()
     spark.sqlContext.sparkContext.setLogLevel("WARN")
+
     val url="jdbc:mysql://roewudu12.cn:3306/usagi"
     val connectionPro = new Properties()
     connectionPro.put("user","root")

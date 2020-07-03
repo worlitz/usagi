@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
  **/
 
 @RestController
+@CrossOrigin("http://localhost:8080")
 public class MovieTypeController {
     @Autowired
     IMoviesTypeService moviesTypeService;
@@ -20,7 +21,7 @@ public class MovieTypeController {
      * 获取所有类别的平均得分
      * @return String json数据
      */
-    @RequestMapping("/ave_score/genres")
+    @RequestMapping(value = "/ave_score/genres",method = RequestMethod.GET)
     public String ave_score_genres(){
 
         JsonObject jsonObject = moviesTypeService.showAverageScore();
@@ -32,10 +33,10 @@ public class MovieTypeController {
      * 获取所有类别的平均得分
      * @return String json数据
      */
-    @RequestMapping("/ave_score/age")
+    @RequestMapping(value = "/ave_score/age",method = RequestMethod.GET)
     public String ave_score_age(){
 
-        //根据电影id返回需要的数据
+
         JsonObject jsonObject = moviesTypeService.showAverageScoreForAge();
 
         return jsonObject.toString();
@@ -45,10 +46,10 @@ public class MovieTypeController {
      * 获取所有类别的平均得分
      * @return String json数据
      */
-    @RequestMapping("/ave_score/gender")
+    @RequestMapping(value = "/ave_score/gender",method = RequestMethod.GET)
     public String ave_score_gender(){
 
-        //根据电影id返回需要的数据
+
         JsonObject jsonObject = moviesTypeService.showAverageScoreForGender();
 
         return jsonObject.toString();
