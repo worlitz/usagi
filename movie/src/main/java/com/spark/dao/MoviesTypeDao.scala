@@ -3,7 +3,6 @@ package com.spark.dao
 import java.util
 import java.util.Properties
 
-import com.spark.entity.Movie
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
