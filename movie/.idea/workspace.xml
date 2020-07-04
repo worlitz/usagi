@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a13233-45d2-4dab-a7f2-8197f0bf3448" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spark/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/controller/MovieTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spark/controller/MovieTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spark/dao/MoviesTypeDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spark/dao/MoviesTypeDao.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/controller/MovieTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/controller/MovieTypeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/dao/MoviesTypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/dao/MoviesTypeDao.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,6 +155,8 @@
       <workItem from="1593776223662" duration="1667000" />
       <workItem from="1593784717908" duration="1304000" />
       <workItem from="1593786079806" duration="2563000" />
+      <workItem from="1593828578504" duration="127000" />
+      <workItem from="1593847894773" duration="1150000" />
     </task>
     <servers />
   </component>
