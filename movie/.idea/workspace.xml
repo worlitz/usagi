@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a13233-45d2-4dab-a7f2-8197f0bf3448" name="Default Changelist" comment="" />
+    <list default="true" id="a2a13233-45d2-4dab-a7f2-8197f0bf3448" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +13,21 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.6.0" />
+        <option name="mavenHome" value="F:/JAVA/maven/apache-maven-3.6.0" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -27,18 +40,22 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dzlTIZukyQA0ij6lmWo1rwXzJ5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/spark" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15494011" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -129,10 +146,34 @@
       <updated>1593435808625</updated>
       <workItem from="1593435811947" duration="8689000" />
       <workItem from="1593445218450" duration="1924000" />
+      <workItem from="1593491005064" duration="9412000" />
+      <workItem from="1593521623435" duration="10199000" />
+      <workItem from="1593561621491" duration="3029000" />
+      <workItem from="1593653201702" duration="29208000" />
+      <workItem from="1593764997712" duration="125000" />
+      <workItem from="1593769831008" duration="81000" />
+      <workItem from="1593776223662" duration="1667000" />
+      <workItem from="1593784717908" duration="1304000" />
+      <workItem from="1593786079806" duration="2563000" />
+      <workItem from="1593828578504" duration="127000" />
+      <workItem from="1593847894773" duration="1150000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

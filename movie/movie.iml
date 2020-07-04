@@ -80,6 +80,9 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.2.7.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.2.7.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.7.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.18" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.janino:commons-compiler:3.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.janino:janino:3.0.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-core_2.12:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.avro:avro:1.8.2" level="project" />
@@ -211,8 +214,6 @@
     <orderEntry type="library" name="Maven: org.apache.spark:spark-sketch_2.12:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-catalyst_2.12:3.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.2" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.janino:janino:3.1.2" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.janino:commons-compiler:3.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.arrow:arrow-vector:0.15.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.arrow:arrow-format:0.15.1" level="project" />
@@ -244,5 +245,18 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.jmock:jmock:2.4.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-library:2.2" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://F:/sparklib/spark-3.0.0-bin-hadoop2.7/jars" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://F:/sparklib/spark-3.0.0-bin-hadoop2.7/jars" />
+        </SOURCES>
+        <jarDirectory url="file://F:/sparklib/spark-3.0.0-bin-hadoop2.7/jars" recursive="false" />
+        <jarDirectory url="file://F:/sparklib/spark-3.0.0-bin-hadoop2.7/jars" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
