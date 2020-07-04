@@ -245,5 +245,18 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.jmock:jmock:2.4.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-library:2.2" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://F:/sparklib/spark-3.0.0-bin-hadoop2.7/jars" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://F:/sparklib/spark-3.0.0-bin-hadoop2.7/jars" />
+        </SOURCES>
+        <jarDirectory url="file://F:/sparklib/spark-3.0.0-bin-hadoop2.7/jars" recursive="false" />
+        <jarDirectory url="file://F:/sparklib/spark-3.0.0-bin-hadoop2.7/jars" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -3,10 +3,9 @@ package com.spark.dao
 import java.util
 import java.util.Properties
 
-import org.apache.spark.sql.{DataFrame, SparkSession}
+import org.apache.spark.sql.{DataFrame, SQLContext, SparkSession}
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
-
 
 /**
  * @Auther: HP
@@ -14,7 +13,6 @@ import org.springframework.stereotype.Component
  * @Description:类，用scala-sql对mysql数据进行增删改查，获取相应的信息
  *              继承CommandLineRunner，提前运行Dao层的spark，防止查询速度过慢
  **/
-
 
 @Component
 class MoviesTypeDao extends CommandLineRunner{
@@ -26,7 +24,6 @@ class MoviesTypeDao extends CommandLineRunner{
       .appName("Spark SQL basic example")
       .getOrCreate()
     spark.sqlContext.sparkContext.setLogLevel("WARN")
-
     val url="jdbc:mysql://roewudu12.cn:3306/usagi"
     val connectionPro = new Properties()
     connectionPro.put("user","root")
@@ -126,6 +123,10 @@ class MoviesTypeDao extends CommandLineRunner{
     })
     ave_scores
   }
+
+def createspark(): SQLContext ={
+  return spark.sqlContext;
+}
 
   override def run(args: String*): Unit = {
     println("正在启动本地spark")
