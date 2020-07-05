@@ -24,8 +24,7 @@
           <v-spacer></v-spacer>
           <v-spacer></v-spacer>
         </v-list-item>
-
-        <v-list-item @click="showSearch = !showSearch">
+        <v-list-item @click="$router.push('/search')">
           <v-list-item-icon class="icon-right">
             <v-icon>mdi-magnify</v-icon>
           </v-list-item-icon>
@@ -33,14 +32,7 @@
             <v-list-item-title>搜索栏</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item @click="$router.push('/stars')">
-          <v-list-item-icon class="icon-right">
-            <v-icon>mdi-star</v-icon>
-          </v-list-item-icon>
-          <v-list-item-content>
-            <v-list-item-title>评分</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
+
         <v-list-item @click="$router.push('/grade')">
           <v-list-item-icon class="icon-right">
             <v-icon>mdi-clipboard-text</v-icon>
@@ -63,24 +55,6 @@
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
-    <v-bottom-navigation
-      height="200"
-      fixed="true"
-      light="true"
-      width="400"
-      class="set-right"
-      v-show="showSearch"
-    >
-      <v-row>
-        <v-col cols="12" sm="6" md="3">
-          <v-text-field label="Regular"></v-text-field>
-        </v-col>
-
-        <v-col cols="12" sm="6" md="3">
-          <v-text-field label="Regular"></v-text-field>
-        </v-col>
-      </v-row>
-    </v-bottom-navigation>
   </v-container>
 </template>
 <script>

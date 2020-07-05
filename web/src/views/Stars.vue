@@ -24,6 +24,7 @@ export default {
     return {
       fenshu: 0,
       count: 0,
+      chart: {},
       data: [
         [
           { movieId: "1", rating: "5" },
@@ -65,7 +66,14 @@ export default {
     };
   },
   activated() {
+    if (JSON.stringify(this.chart) !== "{}"){
+      this.chart.clear()
+
+    }
+    setTimeout(()=>{
     this.setChart(this.count);
+
+    }, 2000)
   },
   methods: {
     dafen() {
@@ -177,8 +185,8 @@ export default {
         series
       };
 
-      const chart = echarts.init(this.$refs.star);
-      chart.setOption(option);
+      this.chart = echarts.init(this.$refs.star);
+      this.chart.setOption(option);
     }
   }
 };
