@@ -19,49 +19,19 @@
 
 <script>
 import echarts from "echarts";
+import Axios from "axios";
 export default {
   data() {
     return {
+      $http: Axios.create({
+        baseUrl: "http://localhost:8080"
+      }),
       fenshu: 0,
+      id:1,
       count: 0,
       chart: {},
       data: [
-        [
-          { movieId: "1", rating: "5" },
-          { movieId: "1", rating: "4" },
-          { movieId: "1", rating: "5" },
-          { movieId: "1", rating: "4" },
-          { movieId: "1", rating: "5" },
-          { movieId: "1", rating: "4" },
-          { movieId: "1", rating: "3" },
-          { movieId: "1", rating: "4" },
-          { movieId: "1", rating: "3" },
-          { movieId: "1", rating: "5" }
-        ],
-        [
-          { movieId: "2", rating: "3" },
-          { movieId: "2", rating: "3" },
-          { movieId: "2", rating: "4" },
-          { movieId: "2", rating: "4" },
-          { movieId: "2", rating: "3" },
-          { movieId: "2", rating: "3" },
-          { movieId: "2", rating: "4" },
-          { movieId: "2", rating: "3" },
-          { movieId: "2", rating: "4" },
-          { movieId: "2", rating: "3" }
-        ],
-        [
-          { movieId: "3", rating: "3" },
-          { movieId: "3", rating: "5" },
-          { movieId: "3", rating: "3.5" },
-          { movieId: "3", rating: "3.5" },
-          { movieId: "3", rating: "4" },
-          { movieId: "3", rating: "1" },
-          { movieId: "3", rating: "3" },
-          { movieId: "3", rating: "2" },
-          { movieId: "3", rating: "2.5" },
-          { movieId: "3", rating: "2" }
-        ]
+
       ]
     };
   },
@@ -70,18 +40,27 @@ export default {
       this.chart.clear()
 
     }
-    setTimeout(()=>{
+    this.fetch()
     this.setChart(this.count);
 
-    }, 2000)
+ 
   },
   methods: {
+    async fetch() {
+      this.data = await this.$http.get("/movie/rating", {
+        id:this.id
+      })
+    },
     dafen() {
       for (let i = 9; i > 0; i--) {
         this.data[0][i].rating = this.data[0][i - 1].rating;
       }
       this.data[0][0].rating = this.fenshu;
       this.setChart(0);
+      this.$http.post('/json/data',{
+        id:this.id,
+        rating: this.fenshu
+      })
     },
     setChart(i) {
       let xData = [];

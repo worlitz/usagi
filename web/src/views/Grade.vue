@@ -39,85 +39,16 @@ export default {
       $http: Axios.create({
         baseURL: "http:127.0.0.1:8080"
       }),
-      data2: {
-        "Film-Noir": "3.92",
-        Action: "3.45",
-        Adventure: "3.51",
-        Horror: "3.26",
-        War: "3.81",
-        Romance: "3.51",
-        Western: "3.58",
-        Documentary: "3.80",
-        "Sci-Fi": "3.45",
-        Drama: "3.66",
-        Thriller: "3.49",
-        "(no genres listed)": "3.47",
-        Crime: "3.66",
-        Fantasy: "3.49",
-        IMAX: "3.62",
-        Animation: "3.63",
-        Comedy: "3.38",
-        Mystery: "3.63",
-        Children: "3.41",
-        Musical: "3.56"
-      },
-      data3: {"zeroToSeventeen":{"Film-Noir":"3.32","Action":"3.48","Adventure":"3.50","Horror":"3.04","War":"3.76","Romance":"3.53","Western":"3.41","Documentary":"3.62","Sci-Fi":"3.46","Drama":"3.64","Thriller":"3.40","(no genres listed)":"4.00","Crime":"3.65","Fantasy":"3.52","IMAX":"3.63","Animation":"3.70","Comedy":"3.37","Mystery":"3.59","Children":"3.45","Musical":"3.67"},"eighteenToFourtyFive":{"Film-Noir":"3.97","Action":"3.45","Adventure":"3.51","Horror":"3.32","War":"3.80","Romance":"3.51","Western":"3.61","Documentary":"3.81","Sci-Fi":"3.46","Drama":"3.66","Thriller":"3.50","(no genres listed)":"3.44","Crime":"3.66","Fantasy":"3.50","IMAX":"3.61","Animation":"3.63","Comedy":"3.40","Mystery":"3.64","Children":"3.41","Musical":"3.56"},"overFourtySix":{}},
-      data: {
-        Female: {
-          "Film-Noir": "4.04",
-          Action: "3.47",
-          Adventure: "3.51",
-          Horror: "3.33",
-          War: "3.81",
-          Romance: "3.50",
-          Western: "3.62",
-          Documentary: "3.83",
-          "Sci-Fi": "3.47",
-          Drama: "3.67",
-          Thriller: "3.52",
-          "(no genres listed)": "3.46",
-          Crime: "3.67",
-          Fantasy: "3.51",
-          IMAX: "3.61",
-          Animation: "3.65",
-          Comedy: "3.37",
-          Mystery: "3.66",
-          Children: "3.44",
-          Musical: "3.56"
-        },
-        Man: {
-          "Film-Noir": "3.85",
-          Action: "3.44",
-          Adventure: "3.51",
-          Horror: "3.23",
-          War: "3.81",
-          Romance: "3.51",
-          Western: "3.56",
-          Documentary: "3.78",
-          "Sci-Fi": "3.45",
-          Drama: "3.65",
-          Thriller: "3.48",
-          "(no genres listed)": "3.47",
-          Crime: "3.65",
-          Fantasy: "3.49",
-          IMAX: "3.62",
-          Animation: "3.62",
-          Comedy: "3.39",
-          Mystery: "3.62",
-          Children: "3.40",
-          Musical: "3.56"
-        }
-      }
+      data2: {},
+      data3: {},
+      data: {}
     };
   },
   activated() {
     this.fetch();
-    setTimeout(() => {
-      this.setChart(["总评分"], "total");
-      this.setChart(["男", "女"], "gender");
-      this.setChart(["0-17", "17-45", "45s岁以上"], "age");
-    }, 1200)
-
+    this.setChart(["总评分"], "total");
+    this.setChart(["男", "女"], "gender");
+    this.setChart(["0-17", "17-45", "45s岁以上"], "age");
   },
   methods: {
     async fetch() {
